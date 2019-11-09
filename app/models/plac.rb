@@ -1,0 +1,2 @@
+class Plac < ApplicationRecord
+end
