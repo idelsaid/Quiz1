@@ -1,0 +1,7 @@
+<h1>Enter Your Shark Details</h1>
+  <%= simple_form_for @shark do |f| %>
+    <%= f.input :name %>
+    <%= f.input :relation %>
+    <br />
+    <%= f.submit 'Create', class: 'btn btn-primary' %>
+  <% end %>

@@ -1,6 +1,6 @@
 require 'test_helper'
 
-class PlacTest < ActiveSupport::TestCase
+class SharkTest < ActiveSupport::TestCase
   # test "the truth" do
   #   assert true
   # end

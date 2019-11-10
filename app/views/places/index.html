@@ -1,1 +1,9 @@
-<h1>My Quiz1</h1>
+<% @model.each do |place| %>
+  <div>
+    <h1><%= model.name %></h1><br />
+    <i><%= model.address %></i><br />
+    <p><%= model.description %></p><br />
+  </div>
+
+  <hr />
+<% end %>
